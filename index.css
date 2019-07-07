@@ -3,11 +3,12 @@
     padding: 0;
 }
 .header{
-    background-color: darkolivegreen;
+    background-color: rgb(241, 226, 12);
+    
 
 }
-.header h1{
-    font-size: 25px;
+.logo{
+    font-size: 30px;
     text-align: center;
     padding-top: 20px;
 }
@@ -26,48 +27,210 @@
     background-position: center;
     background-size: cover;
 } */
+.hero{
+    background-size: cover;
+    height:500px;
+    background-color: rgb(245, 165, 16);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    
 
+
+}
+.image{
+    float: left;
+    margin-top: 250px;
+    padding-left: 160px;
+    
+}
 .hero1 {
-    margin: 100px;
-    margin-top: 200px;
-    
-    
+     padding: 200px;   
+     padding-left: 100px;
 }
 .hero p{
     margin-top: 20px;
+    font-size: 20px;
+    padding-left: 60px;
    
 }
-.hero img {
+
+.hero h1,h4{
+    margin-top: 20px;
+    padding-left: 80px;
+   
+}
+.hero img{
+    width: 400px;
+    height: 300px;
     float: right;
-    margin-bottom: 130px;
-    height: 400px;
-    width: 600px;
-    margin-left: 100px;
-    margin-top: -290px;
+    margin-top: -220px;
+    margin-right: -90px;
+}
+.gallery1{
+    background-color: black;
+    border-top-left-radius: -20%;
 }
 .gallery1 h2{
-    text-align: center;
+    color: rgb(146, 224, 57);
+    padding-left: 590px;
+    font-size: 35px;
 }
-.gallery1 {
+.gallery1 p{
+    color:rgb(146, 224, 57);
+    padding-left: 560px;
+}
+.row{
+    display: flex;
+}
+.gallery2 {
+    margin: 20px;
+    float: left;
+    width: 400px;   
+    padding: 5px; 
     
-    margin: 50px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 180px;
-    display: inline;
-    
-    
-  }
+     
+}
 
   
-.gallery1 img{
-    width: 600;
-    height: 400;
-    float: left;
-    display: inline;
+.gallery2 img{
+    width: 100%;
+    height: 350px;
+    margin: 10px;
     
+     
   }
-  
-.g{
-    padding: 15px;
+.de {
+    padding: 5px;
+    color: coral;
+    padding-left: 100px;
+    font-size: 25px;
+    text-decoration: none;
 }
+.gallery2 h5{
+    color: coral;
+    font-size: 20px;
+    text-align: center;
+}
+#About{
+    background-color: rgb(180, 66, 21);
+    text-align: center
+}
+.about {
+    background-color: rgb(180, 66, 21);
+    text-align: center;
+}
+/* .column {
+    width: 220px;
+    float: left;
+    margin-top: -20px;
+    padding: 40px;
+    background-color: rgb(180, 66, 21);
+    background-size: cover;
+  }
+  .column p{
+      font-size: 25px;
+      word-spacing: 5px;
+  }
+  .column ol{
+      font-size: 20px;
+      list-style-type: decimal;
+  } */
+  .grid-container{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 20px;
+
+  }
+ 
+.grid-item{
+    padding: 30px;
+    font-size: 25px;
+}
+#Contact{
+    background-color: rgb(177, 243, 148);
+    
+}
+#Contact h1{
+    text-align: center;
+    color: brown;
+}
+#Contact p{
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+}
+.contact{
+    display: block;
+}
+.contact img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 20px;
+    padding-left: 70px;
+}
+.contact h5{
+    float: left;
+    margin-top: -60px;
+    padding-left: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.message{
+    float: right;
+    display: block;
+    margin-top: -300px;
+    padding-right: 200px;
+    /* border: 2px solid  rgb(192, 226, 43); */
+    /* background-color: rgb(192, 226, 43); */
+    height: 250px;
+    /* width: 400px; */
+}
+.message h3{
+    font-size: 18px;
+    margin: 20px;
+    
+}
+#email{
+    color: brown;
+    background-color: aqua;
+    font-size: 15px;
+    height: 30px;
+    width: 250px;
+}
+.submit{
+    margin: 20px;
+    background-color: rgb(17, 16, 16);
+    color: aliceblue;
+    height: 30px;
+    width: 150px;
+    padding-right: -150px;
+    
+}
+.footer{
+    background-color: rgb(12, 3, 3);
+    color: white;
+    margin-top: -19px;
+    height: 20px;
+}
+/* .label {
+    margin-top: -20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
