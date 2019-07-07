@@ -4,8 +4,8 @@
 }
 .header{
     background-color: rgb(241, 226, 12);
-    
-
+    position: fixed;
+    width: 100%;
 }
 .logo{
     font-size: 30px;
@@ -39,7 +39,7 @@
 }
 .image{
     float: left;
-    margin-top: 250px;
+    margin-top: 320px;
     padding-left: 160px;
     
 }
@@ -55,7 +55,7 @@
 }
 
 .hero h1,h4{
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 80px;
    
 }
@@ -63,7 +63,7 @@
     width: 400px;
     height: 300px;
     float: right;
-    margin-top: -220px;
+    margin-top: -240px;
     margin-right: -90px;
 }
 .gallery1{
